@@ -11,7 +11,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <style type="text/css">
           body {
-            padding-top: 60px;
+            /*padding-top: 60px;*/
             padding-bottom: 40px;
           }
           .sidebar-nav {
@@ -31,7 +31,7 @@
     
     <body>
 
-        <div class="navbar navbar-fixed-top">
+        <div class="navbar">
           <div class="navbar-inner">
             <div class="container-fluid">
               <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -42,11 +42,20 @@
               <a class="brand" href="#">Peticiones</a>
               <div class="nav-collapse">
                 <ul class="nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#about">ÀC—mo Funciona?</a></li>
+                  <li><a href="#about">Organismos Involucrados</a></li>
+                  <li><a href="#contact">Contacto</a></li>
                 </ul>
-                <p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>
+                <ul class="nav pull-right">
+                    <li class="dropdown" id="navbar-user-options">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Edmundo Fuentes<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Mi Perfil</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Cerrar Sesi—n</a></li>
+                      </ul>
+                    </li>
+                </ul>
               </div><!--/.nav-collapse -->
             </div>
           </div>
@@ -67,22 +76,28 @@
             <div class="span3">
               <div class="well sidebar-nav">
                 <ul class="nav nav-list">
-                  <li class="nav-header">Sidebar</li>
-                  <li class="active"><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li class="nav-header">Sidebar</li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li class="nav-header">Sidebar</li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
+                  <li class="nav-header">Usuario</li>
+                  <li><a href="#">Mi Perfil</a></li>
+                  <li><a href="#">Mis Peticiones</a></li>
+                  <li class="nav-header">Opciones de Administrador</li>
+                  <li><a href="#">Peticiones por Responder</a></li>
+                  <li><a href="#">Peticiones Reportadas</a></li>
+                  <li class="nav-header">P‡ginas Est‡ticas</li>
+                  <li><a href="#">ÀC—mo Funciona?</a></li>
+                  <li><a href="#">Organismos Involucrados</a></li>
+                  <li><a href="#">Preguntas Frecuentes</a></li>
+                  <li><a href="#">Pol’ticas de Uso</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <li><a href="#">Acerca De</a></li>
+                  <li class="nav-header">Opciones de Bœsqueda</li>
+                  <li><a href="#">M‡s Firmas</a></li>
+                  <li><a href="#">M‡s Recientes</a></li>
+                  <li><a href="#">Expiran Pronto</a></li>
+                  <li class="nav-header">Categor’as</li>
+                  <li><a href="#">Econom’a</a></li>
+                  <li><a href="#">Educaci—n</a></li>
+                  <li><a href="#">Vialidad</a></li>
+                  <li><a href="#">Seguridad Pœblica</a></li>
                 </ul>
               </div><!--/.well -->
             </div><!--/span-->
@@ -153,4 +168,5 @@
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-dropdown.js"></script>
   </body>
